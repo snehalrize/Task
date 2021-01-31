@@ -1,0 +1,6 @@
+module Pods_Task_TaskTests {
+  umbrella header "Pods-Task-TaskTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
