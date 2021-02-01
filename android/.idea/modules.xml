@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Task.iml" filepath="$PROJECT_DIR$/.idea/modules/Task.iml" group="Task" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="Task/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/905621401/react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/905621401/react-native-community_masked-view.iml" group="Task/react-native-community_masked-view" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-574718114/react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/-574718114/react-native-gesture-handler.iml" group="Task/react-native-gesture-handler" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1320123390/react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/1320123390/react-native-reanimated.iml" group="Task/react-native-reanimated" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1896925113/react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/-1896925113/react-native-safe-area-context.iml" group="Task/react-native-safe-area-context" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2061497631/react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/2061497631/react-native-screens.iml" group="Task/react-native-screens" />
+    </modules>
+  </component>
+</project>

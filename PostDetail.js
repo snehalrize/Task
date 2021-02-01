@@ -1,6 +1,5 @@
 import React,{ useState ,useEffect } from "react";
 import {View, Image, Text,SafeAreaView,FlatList,Dimensions,TouchableOpacity} from "react-native";
-import CardView from "react-native-cardview";
 import { crossPath,deletePath } from "./ImagePath";
 
 const PostDetails = (props) =>{
@@ -70,7 +69,7 @@ const PostDetails = (props) =>{
         data={commentsSave}
         renderItem={({item, index})=>(
             <View style={{height:100,alignContent:'center',alignSelf:'center',margin:10,backgroundColor:'white'}}>
-            <CardView cardElevation={8} cardMaxElevation={2} cornerRadius={5}>
+            <View >
             <View style={{height:80,alignContent:'center',alignSelf:'center',margin:10,backgroundColor:'white'}}>
             <Text adjustsFontSizeToFit numberOfLines={1} style={{backgroundColor:'white',textAlign:'center',width:windowWidth-20,pading:5,marginTop:10}}>
             {`Comment Name : ${item.name}`}
@@ -79,7 +78,7 @@ const PostDetails = (props) =>{
             {`Body : ${item.body}`}
             </Text>
             </View>
-            </CardView>
+            </View>
             </View>
         )}
         /> 

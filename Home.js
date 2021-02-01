@@ -1,6 +1,5 @@
 import React,{ useState ,useEffect } from "react";
 import {View, Text, SafeAreaView, FlatList, Dimensions, TouchableOpacity} from "react-native";
-import CardView from "react-native-cardview";
 const Home = (props) =>{
     const [isChange, setChange] = useState(true);
     const windowWidth = Dimensions.get('window').width;
@@ -44,7 +43,7 @@ const Home = (props) =>{
     return `Name : ${data[0].name}`;
    }
     return(
-    <SafeAreaView>
+    <SafeAreaView style={{height:windowheight}}>
         <View style={{height:70,backgroundColor:'rgb(0, 168, 204)'}}>
            <Text style={{height:70,marginTop:20,alignSelf:'center',alignSelf:'center',textAlign:'center',fontSize:25,color:'white'}}>
                Users Post
@@ -68,7 +67,7 @@ const Home = (props) =>{
               })}
              >
 
-            <CardView cardElevation={8} cardMaxElevation={2} cornerRadius={5}>
+            <View >
             <View style={{height:80,alignContent:'center',alignSelf:'center',margin:10,backgroundColor:'white'}}>
             <Text adjustsFontSizeToFit numberOfLines={1} style={{backgroundColor:'white',textAlign:'center',width:windowWidth-20,pading:5,fontSize:18}}>
             {nameFunction(item)}
@@ -77,7 +76,7 @@ const Home = (props) =>{
             {`Title : ${item.title}`}
             </Text>
             </View>
-            </CardView>
+            </View>
             </TouchableOpacity>
             </View>
         )}
